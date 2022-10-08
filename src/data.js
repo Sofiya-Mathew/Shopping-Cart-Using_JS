@@ -57,7 +57,7 @@ let shopData = [{
 {
     id: 'hjgjdcec',
     name: 'MacBook Air',
-    price: 44,
+    price: 100000,
     description: 'supercharged by M1 and M2 chips',
     Image: './images/laptop'
 },
