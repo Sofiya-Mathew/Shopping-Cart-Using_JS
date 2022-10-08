@@ -13,12 +13,12 @@ let generateCartItems = () => {
       let { id, item } = x;
       let search = shopData.find((y) => y.id === id) || []
       let { Image, price, name } = search
-      return ` <div class="cart-items ">
+      return ` <div class="cart-items border shadow-sm mb-2">
           <img class="cart-img" src=${Image}>
             <div class="details ">
-            <div class="title-price-x d-flex align-items space-around ">
+            <div class="title-price-x d-flex align-items space-around">
             <h4 class="title-price mt-2"> <p>${name}</p>
-            <p class="card-item-price p-1 rounded shadow-sm">&#8377;${price}</p>
+            <p class="card-item-price p-1 ms-2 rounded shadow-sm">&#8377;${price}</p>
             </h4>
             <i onclick="removeItem(${id})" class="bi bi-x-circle-fill"></i>
             </div><div class="addcart ps-4 mb-2">
@@ -30,7 +30,7 @@ let generateCartItems = () => {
                     <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
                   </svg>
         </div>
-        <h3 class="ms-4">&#8377; ${item * search.price}</h3>
+        <h3 class="ms-4 p-2">&#8377; ${item * search.price}</h3>
             </div>
             </div>`
     }).join(""))

@@ -46,8 +46,8 @@ svg {
     cursor: pointer;
 }
 .cart-img {
-    height: 150px;
     width: 100px;
+    height: 100%;
 }
 .bi-x-circle-fill {
     color: red;
@@ -78,4 +78,6 @@ svg {
 }
 .card {
     height: 28rem;
+}
+.cart-img{
 }
