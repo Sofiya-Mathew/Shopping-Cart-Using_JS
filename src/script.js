@@ -6,7 +6,7 @@ let generateShop = () => {
   return (shop.innerHTML = shopData.map((x) => {
     let { id, name, price, description, Image } = x
     let search = basket.find((x) => x.id === id) || []
-    return `  <div id=product-id-${id} class="col col-12 col-sm-6 col-md-4 ps-4 pb-3" >
+    return `  <div id=product-id-${id} class="col col-12 col-sm-6 col-md-4  pb-3" >
 <div class="card shadow-sm mb-2"  style="width: 20rem; ">
 <img src=${Image} class="card-img-top img-responsive " alt="...">
 <div class="card-body">

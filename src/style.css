@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto Condensed';
+}
 header {
     opacity: .9;
 }
@@ -78,6 +81,4 @@ svg {
 }
 .card {
     height: 28rem;
-}
-.cart-img{
 }
