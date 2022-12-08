@@ -3,7 +3,7 @@ let shopData = [{
     name: 'Nike shoes',
     price: 2400,
     description: ' with comfy Air Max cushioning.',
-    Image: 'https://i.postimg.cc/9QxSkZpm/pexels-photo-9869141.jpg'
+    Image: './images/nike'
 },
 {
     id: 'hghj',
